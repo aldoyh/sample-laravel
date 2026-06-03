@@ -1,0 +1,347 @@
+repo_name: aldoyh/sample-laravel
+report_id: db33ebce1ed1dffc8b02de51dd0128e9
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-10T18:17:59+00:00'
+requested_by: aldoyh
+provider: github
+branch: main
+detected_tools_count: 26
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/aldoyh/sample-laravel/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Kamal Nasser
+  last_updated_on: 2020-06-25 16:17:03.000000000 Z
+- name: PHP
+  description: A popular general-purpose scripting language that is especially suited
+    to web development
+  website_url: http://www.php.net/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source_url: https://github.com/aldoyh/sample-laravel
+  detection_source: Repo Metadata
+- name: Guzzle
+  description: PHP HTTP client that makes it easy to send HTTP requests and trivial
+    to integrate with web services
+  website_url: http://guzzlephp.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/2350/638632.png
+  detection_source_url: https://github.com/aldoyh/sample-laravel/blob/main/composer.json
+  detection_source: composer.json
+  last_updated_by: Kamal Nasser
+  last_updated_on: 2020-06-25 16:17:03.000000000 Z
+- name: Laravel
+  description: A PHP Framework For Web Artisans
+  website_url: http://laravel.com/
+  version: 7.30.6
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/992/AcA2LnWL_400x400.jpg
+  detection_source_url: https://github.com/aldoyh/sample-laravel/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Hasan AlDoy
+  last_updated_on: 2023-02-11 15:26:37.000000000 Z
+- name: Sass
+  description: Syntactically Awesome Style Sheets
+  website_url: http://sass-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source_url: https://github.com/aldoyh/sample-laravel/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Kamal Nasser
+  last_updated_on: 2020-06-25 16:17:03.000000000 Z
+- name: Vue.js
+  description: A progressive framework for building user interfaces
+  website_url: http://vuejs.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript MVC Frameworks
+  image_url: https://img.stackshare.io/service/3837/paeckCWC.png
+  detection_source_url: https://github.com/aldoyh/sample-laravel/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Kamal Nasser
+  last_updated_on: 2020-06-25 16:17:03.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/aldoyh/sample-laravel
+  detection_source: Repo Metadata
+- name: PHPUnit
+  description: Testing framework for PHP
+  website_url: https://phpunit.de/
+  version: 8.5.32
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/1616/1_WsEnddd5Y4EgEHsT054kUQ.jpeg
+  detection_source_url: https://github.com/aldoyh/sample-laravel/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Kamal Nasser
+  last_updated_on: 2020-06-25 16:17:03.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/aldoyh/sample-laravel/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Kamal Nasser
+  last_updated_on: 2020-06-25 16:17:03.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.21
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/aldoyh/sample-laravel/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Hasan AlDoy
+  last_updated_on: 2023-02-10 05:50:20.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 1.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/aldoyh/sample-laravel/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Hasan AlDoy
+  last_updated_on: 2023-02-10 05:50:20.000000000 Z
+- name: laravel-mix
+  description: A framework for web artisans.
+  website_url: https://laravel.com/docs/5.5/mix
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/7945/h7umz7fz_normal.jpg
+  detection_source_url: https://github.com/aldoyh/sample-laravel/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Hasan AlDoy
+  last_updated_on: 2023-02-10 05:50:20.000000000 Z
+- name: facade/ignition
+  description: A beautiful error page for Laravel applications
+  package_url: https://packagist.org/facade/ignition
+  version: 2.17.7
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/aldoyh/sample-laravel/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Kamal Nasser
+  last_updated_on: 2020-06-25 16:17:03.000000000 Z
+- name: fideloper/proxy
+  description: Set trusted proxies for Laravel
+  package_url: https://packagist.org/fideloper/proxy
+  version: 4.4.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/aldoyh/sample-laravel/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Kamal Nasser
+  last_updated_on: 2020-06-25 16:17:03.000000000 Z
+- name: fzaninotto/faker
+  description: Faker is a PHP library that generates fake data for you
+  package_url: https://packagist.org/fzaninotto/faker
+  version: 1.9.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/aldoyh/sample-laravel/blob/main/composer.json
+  detection_source: composer.json
+  last_updated_by: Kamal Nasser
+  last_updated_on: 2020-06-25 16:17:03.000000000 Z
+- name: guzzlehttp/guzzle
+  description: Guzzle is a PHP HTTP client library
+  package_url: https://packagist.org/guzzlehttp/guzzle
+  version: 6.5.8
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/aldoyh/sample-laravel/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Kamal Nasser
+  last_updated_on: 2020-06-25 16:17:03.000000000 Z
+- name: laravel/framework
+  description: The Laravel Framework
+  package_url: https://packagist.org/laravel/framework
+  version: 7.30.6
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/aldoyh/sample-laravel/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Hasan AlDoy
+  last_updated_on: 2023-02-11 15:26:37.000000000 Z
+- name: laravel/tinker
+  description: Powerful REPL for the Laravel framework
+  package_url: https://packagist.org/laravel/tinker
+  version: 2.8.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/aldoyh/sample-laravel/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Hasan AlDoy
+  last_updated_on: 2023-02-11 15:26:37.000000000 Z
+- name: mockery/mockery
+  description: Mockery is a simple yet flexible PHP mock object framework
+  package_url: https://packagist.org/mockery/mockery
+  version: 1.5.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/aldoyh/sample-laravel/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Kamal Nasser
+  last_updated_on: 2020-06-25 16:17:03.000000000 Z
+- name: nunomaduro/collision
+  description: Cli error handling for console/command-line PHP applications
+  package_url: https://packagist.org/nunomaduro/collision
+  version: 4.3.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/aldoyh/sample-laravel/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Hasan AlDoy
+  last_updated_on: 2023-02-11 15:26:37.000000000 Z
+- name: phpunit/phpunit
+  description: The PHP Unit Testing framework
+  package_url: https://packagist.org/phpunit/phpunit
+  version: 8.5.32
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/aldoyh/sample-laravel/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Kamal Nasser
+  last_updated_on: 2020-06-25 16:17:03.000000000 Z
+- name: cross-env
+  description: Run scripts that set and use environment variables across platforms
+  package_url: https://www.npmjs.com/cross-env
+  version: 7.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15828/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/aldoyh/sample-laravel/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Hasan AlDoy
+  last_updated_on: 2023-02-10 05:50:20.000000000 Z
+- name: laravel-mix
+  description: Laravel Mix is an elegant wrapper around Webpack for the 80% use case
+  package_url: https://www.npmjs.com/laravel-mix
+  version: 6.0.49
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17350/default_33c3173e7d0e91f7cea0eab9883ca83b157bd4a5.png
+  detection_source_url: https://github.com/aldoyh/sample-laravel/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Hasan AlDoy
+  last_updated_on: 2023-02-10 05:50:20.000000000 Z
+- name: resolve-url-loader
+  description: Webpack loader that resolves relative paths in url
+  package_url: https://www.npmjs.com/resolve-url-loader
+  version: 5.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16468/default_73c88a18b684e01cbdbf945631a40a44aff5a777.png
+  detection_source_url: https://github.com/aldoyh/sample-laravel/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Hasan AlDoy
+  last_updated_on: 2023-02-10 05:50:20.000000000 Z
+- name: sass-loader
+  description: Sass loader for webpack
+  package_url: https://www.npmjs.com/sass-loader
+  version: 13.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15842/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/aldoyh/sample-laravel/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Hasan AlDoy
+  last_updated_on: 2023-02-10 05:50:20.000000000 Z
+- name: vue-template-compiler
+  description: Template compiler for Vue 2.0
+  package_url: https://www.npmjs.com/vue-template-compiler
+  version: 2.7.14
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15850/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/aldoyh/sample-laravel/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Hasan AlDoy
+  last_updated_on: 2023-02-10 05:50:20.000000000 Z
